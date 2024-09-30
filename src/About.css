@@ -1,0 +1,62 @@
+.about {
+    padding: 20px;
+  }
+  
+  .campaign-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .campaign-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .campaign-header i {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .campaign-header h3 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .campaign-box p {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .campaign-footer {
+    display: flex;
+    justify-content: flex-end; 
+  }
+  
+  .create-campaign-btn {
+    display: flex;
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .create-campaign-btn i {
+    margin-right: 5px;
+  }
+  
+  .create-campaign-btn:hover {
+    background-color: #0056b3;
+  }
+  

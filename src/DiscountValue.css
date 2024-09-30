@@ -1,0 +1,92 @@
+.discount-value-container {
+    padding: 20px;
+  }
+  
+  .container {
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    margin: 10px auto; 
+    transition: height 0.3s ease;
+    max-width: 800px; 
+    width: 100%; 
+  }
+  
+  .horizontal-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: nowrap;
+  }
+  
+  .box {
+    flex: 1;
+    min-width: 150px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  .box:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .content-container {
+    margin-top: 20px;
+  }
+  
+  input[type="number"], input[type="checkbox"] {
+    margin-top: 10px;
+    /* width: 90%; */
+    padding: 8px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #001254;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #001254;
+  }
+  
+  .discounted-products-options {
+    margin-bottom: 20px;
+  }
+  
+  .selected-form {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  .content-box label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .content-box input[type="text"],
+  .content-box input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  

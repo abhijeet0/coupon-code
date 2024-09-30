@@ -1,0 +1,16 @@
+
+.container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .summary-details {
+    margin-top: 15px;
+  }
+  
+  .summary-details p {
+    margin: 5px 0;
+  }
+  
