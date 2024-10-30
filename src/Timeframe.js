@@ -155,7 +155,7 @@ const Timeframe = () => {
           </div>
 
           <button type="button" onClick={handleNextStep}>
-            Next
+           Next
           </button>
         </form>
       </div>

@@ -26,7 +26,6 @@ const Summary = () => {
         <div className="summary-details">
           <p>Included: Discount each order line item(s)</p>
           <p>Excluded: No products</p>
-        
         </div>
       </div>
     </div>

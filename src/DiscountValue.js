@@ -388,6 +388,7 @@ const DiscountValue = () => {
                 onChange={(e) => setUnitsQuantity(e.target.value)}
                 placeholder="Enter quantity"
               />
+              
             </div>
           )}
         </div>
