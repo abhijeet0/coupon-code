@@ -297,4 +297,4 @@ const CampaignSuccess = () => {
   );
 };
 
-export default CampaignSuccess;
+export default CampaignSuccess1;
